@@ -1,49 +1,119 @@
-body{
-    background-image: url("../resources/Tan\ Beige\ Gold\ Crumped\ Paper\ Begin\ Goals\ Productivity\ Goals\ Motivational\ Phone\ Wallpaper.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+@font-face {
+  font-family: "Fredericka";
+  src: url(../resources/Fredericka_the_Great/FrederickatheGreat-Regular.ttf);
 }
+@font-face {
+    font-family: "Montserrat";
+    src: url(../resources/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+  
+  }
 
-h2{
-    font-size: 3rem;
-}
-#light-cornflower-blue{
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+
+
+/* TABLE COLORS */
+#light-cornflower-blue {
     background-color: #8ecae6;
+  }
+  
+  #blue-green {
+    background-color: #219ebc;
+  }
+  
+  #purssian-blue {
+    background-color: #023047;
+  }
+  
+  #selective-yellow {
+    background-color: #ffb703;
+  }
+  #tangerine {
+    background-color: #fb8500;
+  }
+
+body {
+  background-image: url("../resources/Tan\ Beige\ Gold\ Crumped\ Paper\ Begin\ Goals\ Productivity\ Goals\ Motivational\ Phone\ Wallpaper.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2{
+    text-align: center;
+    font-family: "Fredericka";
+    font-size: 2.5rem;
+ 
+}
+h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: "Fredericka";
+    margin: 2% 2%;
 }
 
-#blue-green{
-    background-color: #219EBC;
+
+
+#colors{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: #ffffff;
+    
 }
 
-#purssian-blue{
-    background-color: 	#023047;
+#fonts{
+    background-color: #ffb703;
+}
+#text{
+    background-color: #ffb703;
 }
 
-#selective-yellow{
-    background-color: #FFB703;
-}
-#tangerine{
-    background-color: #FB8500 ;
-}
 
-table{
-    display: inline-block;
-    margin: 5% 10% 10% 10% ;
-
+ul li{
+    font-size: 30px;
 }
-
-table, thead,th,td{
-    border: 2px solid black;
+p{
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 1.6;
+    margin: 2% 2%;
 }
-
-#table-title{
-    background-color: red;
+.first-font{
+    font-family: "Fredericka";
 
 }
+.second-font{
+    font-family: "Montserrat", cursive;
+}
+.third-font{
+    font-family: 'Water Brush', cursive;
+}
 
-th{
-    font-size: 2em;
-    -webkit-text-stroke:1px black;
-    -webkit-text-fill-color:#ffffff;
+table {
+  display: inline-block;
+  margin: 2% 28%;
+  font-size: 1.2em;
+  justify-content: center;
+  
+}
+
+
+
+table,
+thead,
+th,
+td,
+section {
+  border: 2px solid #000000;
+}
+
+#table-title {
+  background-color: #fb5607;
+}
+
+th {
+  font-size: 2em;
+  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: #ffffff;
+}
+section{
+    margin: 2% 2%;
 }
