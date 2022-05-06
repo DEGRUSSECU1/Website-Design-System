@@ -1,0 +1,49 @@
+body{
+    background-image: url("../resources/Tan\ Beige\ Gold\ Crumped\ Paper\ Begin\ Goals\ Productivity\ Goals\ Motivational\ Phone\ Wallpaper.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    font-size: 3rem;
+}
+#light-cornflower-blue{
+    background-color: #8ecae6;
+}
+
+#blue-green{
+    background-color: #219EBC;
+}
+
+#purssian-blue{
+    background-color: 	#023047;
+}
+
+#selective-yellow{
+    background-color: #FFB703;
+}
+#tangerine{
+    background-color: #FB8500 ;
+}
+
+table{
+    display: inline-block;
+    margin: 5% 10% 10% 10% ;
+
+}
+
+table, thead,th,td{
+    border: 2px solid black;
+}
+
+#table-title{
+    background-color: red;
+
+}
+
+th{
+    font-size: 2em;
+    -webkit-text-stroke:1px black;
+    -webkit-text-fill-color:#ffffff;
+}
