@@ -33,7 +33,7 @@
   }
 
 body {
-  background-image: url("../resources/Tan\ Beige\ Gold\ Crumped\ Paper\ Begin\ Goals\ Productivity\ Goals\ Motivational\ Phone\ Wallpaper.svg");
+  background-image: url("./resources/background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,25 +77,30 @@ p{
     margin: 2% 2%;
 }
 .first-font{
-    font-family: "Fredericka";
+    font-family: "Fredericka",Arial, Helvetica, sans-serif;
 
 }
 .second-font{
-    font-family: "Montserrat", cursive;
+    font-family: "Montserrat", cursive,Arial, Helvetica, sans-serif;
 }
 .third-font{
-    font-family: 'Water Brush', cursive;
+    font-family: 'Water Brush', cursive,Arial, Helvetica, sans-serif;
 }
 
-table {
-  display: inline-block;
-  margin: 2% 28%;
+table{
   font-size: 1.2em;
+  margin: 2% 2%;
+}
+.table-container{
+ 
+  display: flex;
   justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
   
 }
-
-
 
 table,
 thead,
@@ -103,6 +108,8 @@ th,
 td,
 section {
   border: 2px solid #000000;
+  
+  
 }
 
 #table-title {
